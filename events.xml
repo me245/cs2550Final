@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<events>
+  <april>
+    <event>
+      <day>4</day>
+      <year>2016</year>
+      <title>Square Root Day</title>
+      <start>00:00</start>
+      <duration>1440</duration>
+      <notes>Celebrate April 4th</notes>
+    </event>
+    <event>
+      <day>14</day>
+      <year>2016</year>
+      <title>Day of Dialogue</title>
+      <start>00:00</start>
+      <duration>1440</duration>
+      <notes>Celebrate April 4th</notes>
+    </event>
+    <event>
+      <day>15</day>
+      <year>2016</year>
+      <title>Day of Silence</title>
+      <start>00:00</start>
+      <duration>1440</duration>
+      <notes>Celebrate April 4th</notes>
+    </event>
+    <event>
+      <day>27</day>
+      <year>2016</year>
+      <title>Denim Day</title>
+      <start>00:00</start>
+      <duration>1440</duration>
+      <notes>Celebrate April 4th</notes>
+    </event>
+  </april>
+</events>

@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+  <html>
+    <head>
+      <title>Calendar</title>
+      <meta charset="utf-8">
+      <meta lang="en">
+      <meta name="Author" content="Michael Evanson">
+      <meta name="About" content="Event Calender">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+      <link rel="stylesheet" type="text/css" href="bootstrap.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <script src="jquery-1.12.3.min.js"></script>
+      <script>
+        $(document).bind('mobileinit',function(){
+          $.mobile.changePage.defaults.changeHash = false;
+          $.mobile.hashListeningEnabled = false;
+          $.mobile.pushStateEnabled = false;
+        });
+      </script> 
+      <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+      <script src="calendar.js"></script> 
+    </head>
+    <body>
+      <div class="container">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="index.html">Simple Event Calendar</a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="grid.html">Calendar</a></li> 
+            </ul>
+          </div>
+        </nav>
+      <div class="container">
+          <hr>
+        <div id="calendar"></div>
+      </div>
+      <div data-role="popup" data-rel="back" id="day" class="ui-content" data-overlay-theme="b">
+        <p>Test</p>
+      </div>
+    </body>
+  </html>

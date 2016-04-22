@@ -1,0 +1,55 @@
+.row.content img {
+   max-width:100%;
+ }
+
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  border: none;
+}
+
+table, td, th {
+    border: 1px solid black !important;
+}
+
+table {
+  border-collapse: collapse;
+  width: 99%;
+}
+
+
+td {
+  height: 70px;
+  position: relative;
+  font-family: monospace;
+
+}
+
+td > span.dayNumber{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+td:not(.monthDay){
+  background-color: grey;
+}
+
+td, th{
+  width: 170px;
+}
+
+.month > th{
+  height:50px;
+  border: 0px !important;
+  text-align: center;
+}
+
+table td a {
+  display: block;
+  min-height: 70px;
+}

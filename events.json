@@ -1,0 +1,35 @@
+[
+"april": {
+    [
+      {
+        "title": "Square Root Day"
+        "start": "2016-04-04 00:00:00"
+        "end": "2016-04-04 00:30:00"
+        "allDay": "true"
+        "notes": "Celebrate April 4th"
+      }
+      {
+        "title": "Day of Dialogue"
+        "start": "2016-04-14 00:00:00"
+        "end": "2016-04-14 00:30:00"
+        "allDay": "true"
+        "notes": "Celebrate April 14th"
+      }
+      {
+        "title": "Day of Silence"
+        "start": "2016-04-15 00:00:00"
+        "end": "2016-04-15 00:30:00"
+        "allDay": "true"
+        "notes": "Celebrate April 15th"
+      }
+      {
+        "title": "Denim Day"
+        "start": "2016-04-27 00:00:00"
+        "end": "2016-04-27 00:30:00"
+        "allDay": "true"
+        "notes": "Celebrate April 27th"
+      }
+    ]
+  }
+]
+
